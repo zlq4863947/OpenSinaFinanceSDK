@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://hq.sinajs.cn/list=sys_time"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+
+<title>COMEX白银(SI)期货行情,新闻,报价_新浪财经_新浪网</title>
+
+<meta name="keywords"
+	content="COMEX白银,SI,COMEX白银期货行情,SI期货行情,COMEX白银报价,COMEX白银新闻,新浪期货" />
+
+<meta name="description"
+	content="新浪财经-期货频道为您提供COMEX白银(SI)期货行情,期货资料,期货新闻,报价,机构报告,评论,现货价格,持仓分析等与COMEX白银(COMEX白银)期货相关的信息与服务." />
+
+<link rel="Stylesheet" type="text/css"
+	href="http://stock2.finance.sina.com.cn/futurespage2012/js/widget/dialog/dialog.css" />
+<link rel="Stylesheet" type="text/css"
+	href="http://stock2.finance.sina.com.cn/futurespage2012/css/base.css?1484645412" />
+<link rel="Stylesheet" type="text/css"
+	href="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-ui/css/cupertino/jquery-ui-1.8.16.custom.css" />
+<script type="text/javascript"
+	src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    var HSI_once=true;
+	var futures_app = {}
+	futures_app.name = "COMEX白银";
+	futures_app.code = "SI";
+	futures_app.vote_code = "SI";
+	futures_app.hold_flash_code = "";
+	futures_app.transcation_date = "";
+	futures_app.type = 0; /*0外盘,1内盘,2期指*/
+	//futures_app.hot_list = ["RB1409","M1409","SR1409","TA1409","Y1409","P1409","C1409","FG1409","ZN1409","A1409","L1409","CF1409","CU1409"];
+	futures_app.hot_list = ["RB1705","I1705","M1705","BU1706","C1705","TA1705","MA1705","ZN1703","RM1705","RU1705","P1705","NI1705","AG1706"];
+	futures_app.inner_futures_per_month = {"data":["AG0","AG1706","AG1712","AG1702","AG1705","AG1711","AG1703","AG1704"],"type":1};
+	futures_app.main_contract = ["RB1705","I1705","M1705","C1705","RM1705","P1705","BU1706","TA1705","AG1706","AU1706"];
+	futures_app.current_futures = {"CAD":"LME铜","CL":"NYMEX原油","GC":"COMEX黄金","SI":"COMEX白银","S":"CBOT黄豆","BO":"CBOT黄豆油","C":"CBOT玉米","W":"CBOT小麦","AHD":"LME铝","OIL":"布伦特原油"};
+	futures_app.relate_stock = ["sz000975","sz000587","sz002731","sh600385","sh600547","sz002721","sz002237","sh600824","sh600711","sh600489"];
+	futures_app.exchange_rate_symbol = ["sh204001","sh204002","sh204003","sh204004","sh204007","sh204014","sh204028"];
+
+    (function(c, k, n, d, h) {
+		if (!c) {
+			return;
+		}
+		//var futures_code = "SI";
+		var cookie = {
+			set: function(k, v, h, d) {
+				var hour = h || 24,
+				now = new Date(),
+				domain = d || documant.domain,
+				exp = new Date(now.getTime() + hour * 3600 * 1000);
+				expires = exp.toGMTString();
+				document.cookie = k + '=' + escape(v) + ';path=/;expires=' + expires + ';domain=' + domain;
+			},
+			get: function(k) {
+				var coo = unescape(document.cookie),
+				s = coo.indexOf(k + '='),
+				kl = s + k.length + 1,
+				e = coo.indexOf(';', kl);
+				if (s == -1) {
+					return '';
+				}
+				if (e == -1) {
+					return coo.substr(kl);
+				}
+				return coo.slice(kl, e);
+			},
+			remove: function(k) {
+				var now = new Date(),
+				exp = new Date(now.getTime() - 3600 * 1000);
+				expires = exp.toGMTString();
+				document.cookie = k + '=' + ';expires=' + expires + '';
+			}
+		};
+		var coo, i, l;
+		k = k || 'FIN_ALL_VISITED';
+		n = n || 60;
+		d = d || 'finance.sina.com.cn';
+		h = h || 24 * 30;
+		coo = cookie.get(k);
+		if (!coo) {
+			cookie.set(k, c, h, d);
+			return;
+		}
+		coo = coo.split(',');
+		for (i = 0, l = coo.length; i < l; i++) {
+			if (coo[i] === c) {
+				coo.splice(i, 1);
+				break;
+			}
+		}
+		coo.unshift(c);
+		coo = coo.slice(0, n);
+		cookie.set(k, coo.join(','), h, d);
+	})("SI");
+
+</script>
+</head>
+<body class="futures-0">
+	<!-- body code begin -->
+
+	<!-- SUDA_CODE_START -->
+	<script type="text/javascript" src="SUDA_CODE.js">
+//<!--
+
+//-->
+</script>
+	<noScript>
+		<div
+			style='position: absolute; top: 0; left: 0; width: 0; height: 0; visibility: hidden'>
+			<img width=0 height=0 src='http://beacon.sina.com.cn/a.gif?noScript'
+				border='0' alt='' />
+		</div>
+	</noScript>
+	<!-- SUDA_CODE_END -->
+
+	<!-- SSO_GETCOOKIE_START -->
+	<script type="text/javascript" src="SSO_UPDATECOOKIE_START.js"></script>
+	<!-- SSO_GETCOOKIE_END -->
+
+	<script type="text/javascript" src="searchword.js"></script>
+	<!-- body code end -->
+
+	<script type="text/javascript">
+</script>
+	<div id="container"></div>
+	<!--right-->
+	<div id="">
+		<p class="tip-delay" style="margin-top: -26px; bottom: -34px;">
+			<span style="font-size: 14px; color: red; margin-right: 10px;">
+				<a target="_blank"
+				href="http://survey.news.sina.com.cn/survey.php?id=78351"
+				style="color: red">意见反馈</a> <a id="btn-old-chart"
+				style="display: inline-block; cursor: pointer; font-size: 12px; color: rgb(51, 51, 51);"
+				href="http://finance.sina.com.cn/futures/quotes/SI.shtml">查看旧版行情图</a>
+			</span> 数据来源: 倚天财经
+		</p>
+		<div class="futures-title">
+			<h1 class="title">COMEX白银</h1>
+			<span class="code">(SI)</span>
+		</div>
+		<!--期货行情-->
+		<div id="box-futures-hq-wrap">
+			<table cellpadding="0" id="table-box-futures-hq" class="table"
+				cellspacing="0" width="100%">
+				<colgroup>
+					<col style="width: 30%;" span="1" />
+					<col style="width: 12%;" span="1" />
+					<col span="1" />
+					<col style="width: 12%;" span="1" />
+					<col span="1" />
+					<col style="width: 12%;" span="1" />
+					<col span="1" />
+					<col style="width: 12%;" span="1" />
+					<col span="1" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td rowspan="3">
+							<div class="box-simple-basic-info">
+								<span class="real-price price">--</span><span class="arrow"></span>
+								<p class="change-wrap">
+									<span class="amt-value">--</span> <span class="amt">--</span>
+								</p>
+							</div>
+							<p class="trade-time time">--</p>
+							<th>最新价:
+								<td class="price">--
+									<th>开盘价:
+										<td class="open-price">--
+											<th>最高价:
+												<td class="max-price">--
+													<th>最低价:
+														<td class="min-price">--
+					</tr>
+					<tr>
+						<th>结算价:
+							<td class="close-price">--
+								<th>昨结算:
+									<td class="yestoday-price">--
+										<th>持仓量:
+											<td class="amount">--
+												<th>成交量:
+													<td class="volume">--
+					</tr>
+					<tr>
+						<th>买&nbsp;&nbsp;价:
+							<td class="buy">--
+								<th>卖&nbsp;&nbsp;价:
+									<td class="sell">--
+										<th>买&nbsp;&nbsp;量:
+											<td class="buy-amount">--
+												<th>卖&nbsp;&nbsp;量:
+													<td class="sell-amount">--
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!--期货行情-->
+		<!--flash-->
+		<table cellpadding="0" id="table-box-futures-flash" cellspacing="0"
+			width="100%">
+			<colgroup>
+				<col width="72%" span="1" />
+				<col span="1" />
+			</colgroup>
+			<tr>
+				<td style="padding: 0; vertical-align: top;">
+					<!-- 理财师投资观点 -->
+					<div style="margin-top: -1px; margin-right: -1px;">
+						<div node-type="lcsTradeTimeContent" data-type="2" data-indid="4"></div>
+					</div> <!-- 理财师投资观点 -->
+					<div class="lcs-dd">
+						<div class="lcs-dn"></div>
+					</div>
+
+					<div style="overflow: hidden;">
+						<div id="box-flash-wrap"
+							style="width: 558px; height: 450px; color: #000000;"></div>
+					</div>
+			</tr>
+		</table>
+		<!--flash-->
+
+	<style type="text/css">
+.qrcode_blk {
+	position: fixed;
+	left: 50%;
+	margin-left: 510px;
+	top: 160px;
+	width: 120px;
+	padding: 10px;
+	border: 1px solid #d3d6de;
+}
+
+.qrcode_blk img {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+.qrcode_txt {
+	margin-top: 5px;
+	text-align: center;
+	line-height: 20px;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	color: #000000;
+}
+
+.qrcode_txt span {font-size14px;
+	font-weight: bold;
+}
+</style>
+
+	<script type="text/javascript"
+		src="http://finance.sina.com.cn/futures/quotes/iframe/js/global_futures_symbol_js.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery.tmpl.min.js"></script>
+	<script type="text/javascript"
+		src='http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-ui/jquery-ui-1.8.16.custom.min.js'></script>
+	<script type="text/javascript"
+		src="http://www.sinaimg.cn/cj/ddp/js/swfobject2.2.js"></script>
+	<script type="text/javascript"
+		src="http://finance.sina.com.cn/js/286/20120924/92.js"></script>
+	<script type="text/javascript"
+		src="http://finance.sina.com.cn/js/286/20130109/102.js"></script>
+	<script type="text/javascript"
+		src="http://i3.sinaimg.cn/dy/fusioncharts/v3_2_2/FusionCharts.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery.plugin.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/widget/dialog/dialog.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/tabswitch.js"></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/stockhq.js"></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/config.js"></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/login-manger.js"></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/weibo-app.js"></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/view.js"></script>
+	<script src='sinafinancesdk/js/sdk.js'></script>
+	<!--script src="sinafinancesdk/js/api/utils.util.js"></script>
+	<script src="sinafinancesdk/js/api/cfgs.settinger.js"></script>
+	<script src="sinafinancesdk/js/api/datas.hq.js"></script>
+	<script src="sinafinancesdk/js/api/utils.painter.js"></script-->
+	<script src='futrues/hf/stock20161021.js'></script>
+	<script type="text/javascript"
+		src="futurespage2012/js/control.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/slide.js"></script>
+	<script type="text/javascript"
+		src="http://stock2.finance.sina.com.cn/futurespage2012/js/lcs_control.js"></script>
+	<script>
+control.init();
+</script>
+	<script>
+	(function() {
+		var sc = document.createElement("script");
+		sc.src = "http://licaishi.sina.com.cn/web/financeInclude?name=lcs_trade_time";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(sc, s);
+	})();
+</script>
+
+
+	<!-- body code begin -->
+	<script type="text/javascript">
+(function(){
+    if(window.top !== window.self || window._thereIsNoRealTimeMessage){return};
+    var script = document.createElement('script');
+    script.setAttribute('charset', 'UTF-8');
+    script.src = 'http://news.sina.com.cn/js/694/2012/0830/realtime.js?ver=1.5.1';
+    document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+
+	<!-- SSO_UPDATECOOKIE_START -->
+	<script type="text/javascript" src="SSO_UPDATECOOKIE_START.js"></script>
+	<!-- SSO_UPDATECOOKIE_END -->
+
+	<!-- Start  Wrating  -->
+	<script language="javascript" src="Wrating.js"></script>
+	<!-- End Wrating-->
+
+	<!-- start dmp -->
+	<script type="text/javascript">
+</script>
+	<!-- end dmp -->
+
+	<!-- body code end -->
+</body>
+</html>

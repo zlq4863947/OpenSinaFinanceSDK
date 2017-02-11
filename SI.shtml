@@ -1,0 +1,1146 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://hq.sinajs.cn/list=sys_time"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<title>COMEX白银(SI)期货行情,新闻,报价_新浪财经_新浪网</title>
+<meta name="keywords" content="COMEX白银,SI,COMEX白银期货行情,SI期货行情,COMEX白银报价,COMEX白银新闻,新浪期货" />
+<meta name="description" content="新浪财经-期货频道为您提供COMEX白银(SI)期货行情,期货资料,期货新闻,报价,机构报告,评论,现货价格,持仓分析等与COMEX白银(COMEX白银)期货相关的信息与服务." />
+<link rel="Stylesheet" type="text/css" href="http://stock2.finance.sina.com.cn/futurespage2012/js/widget/dialog/dialog.css" />
+<link rel="Stylesheet" type="text/css" href="http://stock2.finance.sina.com.cn/futurespage2012/css/base.css?1484645412" />
+<link rel="Stylesheet" type="text/css" href="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-ui/css/cupertino/jquery-ui-1.8.16.custom.css" />
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    var HSI_once=true;
+	var futures_app = {}
+	futures_app.name = "COMEX白银";
+	futures_app.code = "SI";
+	futures_app.vote_code = "SI";
+	futures_app.hold_flash_code = "";
+	futures_app.transcation_date = "";
+	futures_app.type = 0; /*0外盘,1内盘,2期指*/
+	//futures_app.hot_list = ["RB1409","M1409","SR1409","TA1409","Y1409","P1409","C1409","FG1409","ZN1409","A1409","L1409","CF1409","CU1409"];
+	futures_app.hot_list = ["RB1705","I1705","M1705","BU1706","C1705","TA1705","MA1705","ZN1703","RM1705","RU1705","P1705","NI1705","AG1706"];
+	futures_app.inner_futures_per_month = {"data":["AG0","AG1706","AG1712","AG1702","AG1705","AG1711","AG1703","AG1704"],"type":1};
+	futures_app.main_contract = ["RB1705","I1705","M1705","C1705","RM1705","P1705","BU1706","TA1705","AG1706","AU1706"];
+	futures_app.current_futures = {"CAD":"LME铜","CL":"NYMEX原油","GC":"COMEX黄金","SI":"COMEX白银","S":"CBOT黄豆","BO":"CBOT黄豆油","C":"CBOT玉米","W":"CBOT小麦","AHD":"LME铝","OIL":"布伦特原油"};
+	futures_app.relate_stock = ["sz000975","sz000587","sz002731","sh600385","sh600547","sz002721","sz002237","sh600824","sh600711","sh600489"];
+	futures_app.exchange_rate_symbol = ["sh204001","sh204002","sh204003","sh204004","sh204007","sh204014","sh204028"];
+
+    (function(c,k,n,d,h){if(!c){return;}
+//var futures_code = "SI";
+var cookie={set:function(k,v,h,d){var hour=h||24,now=new Date(),domain=d||documant.domain,exp=new Date(now.getTime()+hour*3600*1000);expires=exp.toGMTString();document.cookie=k+'='+escape(v)+';path=/;expires='+expires+';domain='+domain;},get:function(k){var coo=unescape(document.cookie),s=coo.indexOf(k+'='),kl=s+k.length+1,e=coo.indexOf(';',kl);if(s==-1){return'';}
+if(e==-1){return coo.substr(kl);}
+return coo.slice(kl,e);},remove:function(k){var now=new Date(),exp=new Date(now.getTime()-3600*1000);expires=exp.toGMTString();document.cookie=k+'='+';expires='+expires+'';}};var coo,i,l;k=k||'FIN_ALL_VISITED';n=n||60;d=d||'finance.sina.com.cn';h=h||24*30;coo=cookie.get(k);if(!coo){cookie.set(k,c,h,d);return;}
+coo=coo.split(',');for(i=0,l=coo.length;i<l;i++){if(coo[i]===c){coo.splice(i,1);break;}}
+coo.unshift(c);coo=coo.slice(0,n);cookie.set(k,coo.join(','),h,d);})("SI");
+
+</script>
+</head> 
+<body class = "futures-0"><!-- body code begin -->
+
+<!-- SUDA_CODE_START --> 
+<script type="text/javascript"> 
+//<!--
+(function(){var aD="V=2.1.16";var aw=window,M=document,v=navigator,ag=v.userAgent,aE=aw.screen,k=aw.location.href;var aV="https:"==aw.location.protocol?"https://s":"http://",aP="beacon.sina.com.cn";var W=aV+aP+"/a.gif?",E=aV+aP+"/g.gif?",aa=aV+aP+"/f.gif?",av=aV+aP+"/e.gif?",aS=aV+"beacon.sinauda.com/i.gif?";var aR=M.referrer.toLowerCase();var am="SINAGLOBAL",ai="FSINAGLOBAL",Q="Apache",Y="ULV",m="SUP",aW="UOR",L="_s_acc",ah="_s_tentry",o=false,aQ=false,H=(document.domain=="sina.com.cn")?true:false;var q=0;var aY=false,F=false;var aB="";var n=16777215,aj=0,I,T=0;var u="",b="",a="";var V=[],ac=[],R=[];var x=0;var y=0;var r="";var aC=false;var A=false;function X(){var e=document.createElement("iframe");e.src=aV+aP+"/data.html?"+new Date().getTime();e.id="sudaDataFrame";e.style.height="0px";e.style.width="1px";e.style.overflow="hidden";e.frameborder="0";e.scrolling="no";document.getElementsByTagName("head")[0].appendChild(e)}function l(){var e=document.createElement("iframe");e.src=aV+aP+"/ckctl.html";e.id="ckctlFrame";e.style.height="0px";e.style.width="1px";e.style.overflow="hidden";e.frameborder="0";e.scrolling="no";document.getElementsByTagName("head")[0].appendChild(e)}function t(){var e=document.createElement("script");e.src=aV+aP+"/h.js";document.getElementsByTagName("head")[0].appendChild(e)}function j(aZ,i){var D=M.getElementsByName(aZ);var e=(i>0)?i:0;return(D.length>e)?D[e].content:""}function aX(){var a1=M.getElementsByName("sudameta");var a9=[];for(var a6=0;a6<a1.length;a6++){var a2=a1[a6].content;if(a2){if(a2.indexOf(";")!=-1){var D=a2.split(";");for(var aZ=0;aZ<D.length;aZ++){var a7=aM(D[aZ]);if(!a7){continue}a9.push(a7)}}else{a9.push(a2)}}}var a4=M.getElementsByTagName("meta");for(var a6=0,a0=a4.length;a6<a0;a6++){var a5=a4[a6];if(a5.name=="tags"){a9.push("content_tags:"+encodeURI(a5.content))}}var a3=w("vjuids");a9.push("vjuids:"+a3);var e="";var a8=k.indexOf("#");if(a8!=-1){e=escape(k.substr(a8+1));a9.push("hashtag:"+e)}return a9}function af(a2,D,a0,aZ){if(a2==""){return""}aZ=(aZ=="")?"=":aZ;D+=aZ;var a1=a2.indexOf(D);if(a1<0){return""}a1+=D.length;var i=a2.indexOf(a0,a1);if(i<a1){i=a2.length}return a2.substring(a1,i)}function w(e){if(undefined==e||""==e){return""}return af(M.cookie,e,";","")}function aJ(a0,e,i,aZ){if(e!=null){if((undefined==aZ)||(null==aZ)){aZ="sina.com.cn"}if((undefined==i)||(null==i)||(""==i)){M.cookie=a0+"="+e+";domain="+aZ+";path=/"}else{var D=new Date();var a1=D.getTime();a1=a1+86400000*i;D.setTime(a1);a1=D.getTime();M.cookie=a0+"="+e+";domain="+aZ+";expires="+D.toUTCString()+";path=/"}}}function g(D){try{var i=document.getElementById("sudaDataFrame").contentWindow.storage;return i.get(D)}catch(aZ){return false}}function aH(D,aZ){try{var i=document.getElementById("sudaDataFrame").contentWindow.storage;i.set(D,aZ);return true}catch(a0){return false}}function U(){var a1=15;var D=window.SUDA.etag;if(!H){return"-"}if(x==0){X();t()}if(D&&D!=undefined){A=true}ls_gid=g(am);if(ls_gid===false||A==false){return false}else{aC=true}if(ls_gid&&ls_gid.length>a1){aJ(am,ls_gid,3650);o=true;return ls_gid}else{if(D&&D.length>a1){aJ(am,D,3650);aQ=true}var i=0,a0=500;var aZ=setInterval((function(){var e=w(am);if(A){e=D}i+=1;if(i>3){clearInterval(aZ)}if(e.length>a1){clearInterval(aZ);aH(am,e)}}),a0);return A?D:w(am)}}function ae(e,aZ,D){var i=e;if(i==null){return false}aZ=aZ||"click";if((typeof D).toLowerCase()!="function"){return}if(i.attachEvent){i.attachEvent("on"+aZ,D)}else{if(i.addEventListener){i.addEventListener(aZ,D,false)}else{i["on"+aZ]=D}}return true}function au(){if(window.event!=null){return window.event}else{if(window.event){return window.event}var D=arguments.callee.caller;var i;var aZ=0;while(D!=null&&aZ<40){i=D.arguments[0];if(i&&(i.constructor==Event||i.constructor==MouseEvent||i.constructor==KeyboardEvent)){return i}aZ++;D=D.caller}return i}}function h(i){i=i||au();if(!i.target){i.target=i.srcElement;i.pageX=i.x;i.pageY=i.y}if(typeof i.layerX=="undefined"){i.layerX=i.offsetX}if(typeof i.layerY=="undefined"){i.layerY=i.offsetY}return i}function aM(aZ){if(typeof aZ!=="string"){throw"trim need a string as parameter"}var e=aZ.length;var D=0;var i=/(\u3000|\s|\t|\u00A0)/;while(D<e){if(!i.test(aZ.charAt(D))){break}D+=1}while(e>D){if(!i.test(aZ.charAt(e-1))){break}e-=1}return aZ.slice(D,e)}function d(e){return Object.prototype.toString.call(e)==="[object Array]"}function S(aZ,a3){var a5=aM(aZ).split("&");var a4={};var D=function(i){if(a3){try{return decodeURIComponent(i)}catch(a7){return i}}else{return i}};for(var a1=0,a2=a5.length;a1<a2;a1++){if(a5[a1]){var a0=a5[a1].split("=");var e=a0[0];var a6=a0[1];if(a0.length<2){a6=e;e="$nullName"}if(!a4[e]){a4[e]=D(a6)}else{if(d(a4[e])!=true){a4[e]=[a4[e]]}a4[e].push(D(a6))}}}return a4}function aq(D,a0){for(var aZ=0,e=D.length;aZ<e;aZ++){a0(D[aZ],aZ)}}function az(i){var e=new RegExp("^http(?:s)?://([^/]+)","im");if(i.match(e)){return i.match(e)[1].toString()}else{return""}}function ay(a6){try{var a3="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";var D="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=";var a8=function(e){var a9="",ba=0;for(;ba<e.length;ba++){a9+="%"+aZ(e[ba])}return decodeURIComponent(a9)};var aZ=function(e){var i="0"+e.toString(16);return i.length<=2?i:i.substr(1)};var a7=function(bg,bd,a9){if(typeof(bg)=="string"){bg=bg.split("")}var bf=function(bp,br){for(var bq=0;bq<bp.length;bq++){if(bp[bq]==br){return bq}}return -1};var ba=[];var bo,bm,bj="";var bn,bl,bi,bh="";if(bg.length%4!=0){}var e=/[^A-Za-z0-9\+\/\=]/g;var bk=a3.split("");if(bd=="urlsafe"){e=/[^A-Za-z0-9\-_\=]/g;bk=D.split("")}var bc=0;if(bd=="binnary"){bk=[];for(bc=0;bc<=64;bc++){bk[bc]=bc+128}}if(bd!="binnary"&&e.exec(bg.join(""))){return a9=="array"?[]:""}bc=0;do{bn=bf(bk,bg[bc++]);bl=bf(bk,bg[bc++]);bi=bf(bk,bg[bc++]);bh=bf(bk,bg[bc++]);bo=(bn<<2)|(bl>>4);bm=((bl&15)<<4)|(bi>>2);bj=((bi&3)<<6)|bh;ba.push(bo);if(bi!=64&&bi!=-1){ba.push(bm)}if(bh!=64&&bh!=-1){ba.push(bj)}bo=bm=bj="";bn=bl=bi=bh=""}while(bc<bg.length);if(a9=="array"){return ba}var be="",bb=0;for(;bb<ba.lenth;bb++){be+=String.fromCharCode(ba[bb])}return be};var a0=[];var a5=a6.substr(0,3);var a2=a6.substr(3);switch(a5){case"v01":for(var a1=0;a1<a2.length;a1+=2){a0.push(parseInt(a2.substr(a1,2),16))}return decodeURIComponent(a8(a7(a0,"binnary","array")));break;case"v02":a0=a7(a2,"urlsafe","array");return a8(a7(a0,"binnary","array"));break;default:return decodeURIComponent(a6)}}catch(a4){return""}}var aF={screenSize:function(){return(n&8388608==8388608)?aE.width+"x"+aE.height:""},colorDepth:function(){return(n&4194304==4194304)?aE.colorDepth:""},appCode:function(){return(n&2097152==2097152)?v.appCodeName:""},appName:function(){return(n&1048576==1048576)?((v.appName.indexOf("Microsoft Internet Explorer")>-1)?"MSIE":v.appName):""},cpu:function(){return(n&524288==524288)?(v.cpuClass||v.oscpu):""},platform:function(){return(n&262144==262144)?(v.platform):""},jsVer:function(){if(n&131072!=131072){return""}var a0,e,a2,D=1,aZ=0,i=(v.appName.indexOf("Microsoft Internet Explorer")>-1)?"MSIE":v.appName,a1=v.appVersion;if("MSIE"==i){e="MSIE";a0=a1.indexOf(e);if(a0>=0){a2=window.parseInt(a1.substring(a0+5));if(3<=a2){D=1.1;if(4<=a2){D=1.3}}}}else{if(("Netscape"==i)||("Opera"==i)||("Mozilla"==i)){D=1.3;e="Netscape6";a0=a1.indexOf(e);if(a0>=0){D=1.5}}}return D},network:function(){if(n&65536!=65536){return""}var i="";i=(v.connection&&v.connection.type)?v.connection.type:i;try{M.body.addBehavior("#default#clientCaps");i=M.body.connectionType}catch(D){i="unkown"}return i},language:function(){return(n&32768==32768)?(v.systemLanguage||v.language):""},timezone:function(){return(n&16384==16384)?(new Date().getTimezoneOffset()/60):""},flashVer:function(){if(n&8192!=8192){return""}var a2=v.plugins,aZ,a3,a5;if(a2&&a2.length){for(var a1 in a2){a3=a2[a1];if(a3.description==null){continue}if(aZ!=null){break}a5=a3.description.toLowerCase();if(a5.indexOf("flash")!=-1){aZ=a3.version?parseInt(a3.version):a5.match(/\d+/);continue}}}else{if(window.ActiveXObject){for(var a0=10;a0>=2;a0--){try{var D=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+a0);if(D){aZ=a0;break}}catch(a4){}}}else{if(ag.indexOf("webtv/2.5")!=-1){aZ=3}else{if(ag.indexOf("webtv")!=-1){aZ=2}}}}return aZ},javaEnabled:function(){if(n&4096!=4096){return""}var D=v.plugins,i=v.javaEnabled(),aZ,a0;if(i==true){return 1}if(D&&D.length){for(var e in D){aZ=D[e];if(aZ.description==null){continue}if(i!=null){break}a0=aZ.description.toLowerCase();if(a0.indexOf("java plug-in")!=-1){i=parseInt(aZ.version);continue}}}else{if(window.ActiveXObject){i=(new ActiveXObject("JavaWebStart.IsInstalled")!=null)}}return i?1:0}};var ar={pageId:function(i){var D=i||u,a2="-9999-0-0-1";if((undefined==D)||(""==D)){try{var aZ=j("publishid");if(""!=aZ){var a1=aZ.split(",");if(a1.length>0){if(a1.length>=3){a2="-9999-0-"+a1[1]+"-"+a1[2]}D=a1[0]}}else{D="0"}}catch(a0){D="0"}D=D+a2}return D},sessionCount:function(){var e=w("_s_upa");if(e==""){e=0}return e},excuteCount:function(){return SUDA.sudaCount},referrer:function(){if(n&2048!=2048){return""}var e=/^[^\?&#]*.swf([\?#])?/;if((aR=="")||(aR.match(e))){var i=af(k,"ref","&","");if(i!=""){return escape(i)}}return escape(aR)},isHomepage:function(){if(n&1024!=1024){return""}var D="";try{M.body.addBehavior("#default#homePage");D=M.body.isHomePage(k)?"Y":"N"}catch(i){D="unkown"}return D},PGLS:function(){return(n&512==512)?j("stencil"):""},ZT:function(){if(n&256!=256){return""}var e=j("subjectid");e.replace(",",".");e.replace(";",",");return escape(e)},mediaType:function(){return(n&128==128)?j("mediaid"):""},domCount:function(){return(n&64==64)?M.getElementsByTagName("*").length:""},iframeCount:function(){return(n&32==32)?M.getElementsByTagName("iframe").length:""}};var aL={visitorId:function(){var i=15;var e=w(am);if(e.length>i&&x==0){return e}else{return}},fvisitorId:function(e){if(!e){var e=w(ai);return e}else{aJ(ai,e,3650)}},sessionId:function(){var e=w(Q);if(""==e){var i=new Date();e=Math.random()*10000000000000+"."+i.getTime()}return e},flashCookie:function(e){if(e){}else{return r}},lastVisit:function(){var D=w(Q);var a0=w(Y);var aZ=a0.split(":");var a1="",i;if(aZ.length>=6){if(D!=aZ[4]){i=new Date();var e=new Date(window.parseInt(aZ[0]));aZ[1]=window.parseInt(aZ[1])+1;if(i.getMonth()!=e.getMonth()){aZ[2]=1}else{aZ[2]=window.parseInt(aZ[2])+1}if(((i.getTime()-e.getTime())/86400000)>=7){aZ[3]=1}else{if(i.getDay()<e.getDay()){aZ[3]=1}else{aZ[3]=window.parseInt(aZ[3])+1}}a1=aZ[0]+":"+aZ[1]+":"+aZ[2]+":"+aZ[3];aZ[5]=aZ[0];aZ[0]=i.getTime();aJ(Y,aZ[0]+":"+aZ[1]+":"+aZ[2]+":"+aZ[3]+":"+D+":"+aZ[5],360)}else{a1=aZ[5]+":"+aZ[1]+":"+aZ[2]+":"+aZ[3]}}else{i=new Date();a1=":1:1:1";aJ(Y,i.getTime()+a1+":"+D+":",360)}return a1},userNick:function(){if(aB!=""){return aB}var D=unescape(w(m));if(D!=""){var i=af(D,"ag","&","");var e=af(D,"user","&","");var aZ=af(D,"uid","&","");var a1=af(D,"sex","&","");var a0=af(D,"dob","&","");aB=i+":"+e+":"+aZ+":"+a1+":"+a0;return aB}else{return""}},userOrigin:function(){if(n&4!=4){return""}var e=w(aW);var i=e.split(":");if(i.length>=2){return i[0]}else{return""}},advCount:function(){return(n&2==2)?w(L):""},setUOR:function(){var a3=w(aW),a7="",i="",a6="",a0="",a4=k.toLowerCase(),D=M.referrer.toLowerCase();var a8=/[&|?]c=spr(_[A-Za-z0-9]{1,}){3,}/;var a2=new Date();if(a4.match(a8)){a6=a4.match(a8)[0]}else{if(D.match(a8)){a6=D.match(a8)[0]}}if(a6!=""){a6=a6.substr(3)+":"+a2.getTime()}if(a3==""){if(w(Y)==""){a7=az(D);i=az(a4)}aJ(aW,a7+","+i+","+a6,365)}else{var a1=0,a5=a3.split(",");if(a5.length>=1){a7=a5[0]}if(a5.length>=2){i=a5[1]}if(a5.length>=3){a0=a5[2]}if(a6!=""){a1=1}else{var aZ=a0.split(":");if(aZ.length>=2){var e=new Date(window.parseInt(aZ[1]));if(e.getTime()<(a2.getTime()-86400000*30)){a1=1}}}if(a1){aJ(aW,a7+","+i+","+a6,365)}}},setAEC:function(e){if(""==e){return}var i=w(L);if(i.indexOf(e+",")<0){i=i+e+","}aJ(L,i,7)},ssoInfo:function(){var D=unescape(ay(w("sso_info")));if(D!=""){if(D.indexOf("uid=")!=-1){var i=af(D,"uid","&","");return escape("uid:"+i)}else{var e=af(D,"u","&","");return escape("u:"+unescape(e))}}else{return""}},subp:function(){return w("SUBP")}};var ax={CI:function(){var e=["sz:"+aF.screenSize(),"dp:"+aF.colorDepth(),"ac:"+aF.appCode(),"an:"+aF.appName(),"cpu:"+aF.cpu(),"pf:"+aF.platform(),"jv:"+aF.jsVer(),"ct:"+aF.network(),"lg:"+aF.language(),"tz:"+aF.timezone(),"fv:"+aF.flashVer(),"ja:"+aF.javaEnabled()];return"CI="+e.join("|")},PI:function(e){var i=["pid:"+ar.pageId(e),"st:"+ar.sessionCount(),"et:"+ar.excuteCount(),"ref:"+ar.referrer(),"hp:"+ar.isHomepage(),"PGLS:"+ar.PGLS(),"ZT:"+ar.ZT(),"MT:"+ar.mediaType(),"keys:","dom:"+ar.domCount(),"ifr:"+ar.iframeCount()];return"PI="+i.join("|")},UI:function(){var e=["vid:"+aL.visitorId(),"sid:"+aL.sessionId(),"lv:"+aL.lastVisit(),"un:"+aL.userNick(),"uo:"+aL.userOrigin(),"ae:"+aL.advCount(),"lu:"+aL.fvisitorId(),"si:"+aL.ssoInfo(),"rs:"+(o?1:0),"dm:"+(H?1:0),"su:"+aL.subp()];return"UI="+e.join("|")},EX:function(i,e){if(n&1!=1){return""}i=(null!=i)?i||"":b;e=(null!=e)?e||"":a;return"EX=ex1:"+i+"|ex2:"+e},MT:function(){return"MT="+aX().join("|")},V:function(){return aD},R:function(){return"gUid_"+new Date().getTime()}};function aO(){var a2="-",aZ=M.referrer.toLowerCase(),D=k.toLowerCase();if(""==w(ah)){if(""!=aZ){a2=az(aZ)}aJ(ah,a2,"","weibo.com")}var a0=/weibo.com\/reg.php/;if(D.match(a0)){var a1=af(unescape(D),"sharehost","&","");var i=af(unescape(D),"appkey","&","");if(""!=a1){aJ(ah,a1,"","weibo.com")}aJ("appkey",i,"","weibo.com")}}function f(e,i){P(e,i)}function P(i,D){D=D||{};var e=new Image(),aZ;if(D&&D.callback&&typeof D.callback=="function"){e.onload=function(){clearTimeout(aZ);aZ=null;D.callback(true)}}SUDA.img=e;e.src=i;aZ=setTimeout(function(){if(D&&D.callback&&typeof D.callback=="function"){D.callback(false);e.onload=null}},D.timeout||2000)}function B(e,aZ,D,a0){SUDA.sudaCount++;if(!aL.visitorId()&&!U()){if(x<3){x++;setTimeout(B,500);return}}var i=W+[ax.V(),ax.CI(),ax.PI(e),ax.UI(),ax.MT(),ax.EX(aZ,D),ax.R()].join("&");P(i,a0)}function C(e,D,i){if(aY||F){return}if(SUDA.sudaCount!=0){return}B(e,D,i)}function an(e,aZ){if((""==e)||(undefined==e)){return}aL.setAEC(e);if(0==aZ){return}var D="AcTrack||"+w(am)+"||"+w(Q)+"||"+aL.userNick()+"||"+e+"||";var i=av+D+"&gUid_"+new Date().getTime();f(i)}function aG(a0,e,i,a1){a1=a1||{};if(!i){i=""}else{i=escape(i)}var aZ="UATrack||"+w(am)+"||"+w(Q)+"||"+aL.userNick()+"||"+a0+"||"+e+"||"+ar.referrer()+"||"+i+"||"+(a1.realUrl||"")+"||"+aL.subp()+"||"+a1.ext;var D=av+aZ+"&gUid_"+new Date().getTime();f(D,a1)}function aU(a2){var i=h(a2);var a0=i.target;var aZ="",a3="",D="";var a1;if(a0!=null&&a0.getAttribute&&(!a0.getAttribute("suda-uatrack")&&!a0.getAttribute("suda-actrack")&&!a0.getAttribute("suda-data"))){while(a0!=null&&a0.getAttribute&&(!!a0.getAttribute("suda-uatrack")||!!a0.getAttribute("suda-actrack")||!!a0.getAttribute("suda-data"))==false){if(a0==M.body){return}a0=a0.parentNode}}if(a0==null||a0.getAttribute==null){return}aZ=a0.getAttribute("suda-actrack")||"";a3=a0.getAttribute("suda-uatrack")||a0.getAttribute("suda-data")||"";sudaUrls=a0.getAttribute("suda-urls")||"";if(a3){a1=S(a3);if(a0.tagName.toLowerCase()=="a"){D=a0.href}opts={};opts.ext=(a1.ext||"");a1.key&&SUDA.uaTrack&&SUDA.uaTrack(a1.key,a1.value||a1.key,D,opts)}if(aZ){a1=S(aZ);a1.key&&SUDA.acTrack&&SUDA.acTrack(a1.key,a1.value||a1.key)}}if(window.SUDA&&Object.prototype.toString.call(window.SUDA)==="[object Array]"){for(var Z=0,at=SUDA.length;Z<at;Z++){switch(SUDA[Z][0]){case"setGatherType":n=SUDA[Z][1];break;case"setGatherInfo":u=SUDA[Z][1]||u;b=SUDA[Z][2]||b;a=SUDA[Z][3]||a;break;case"setPerformance":aj=SUDA[Z][1];break;case"setPerformanceFilter":I=SUDA[Z][1];break;case"setPerformanceInterval":T=SUDA[Z][1]*1||0;T=isNaN(T)?0:T;break;case"setGatherMore":V.push(SUDA[Z].slice(1));break;case"acTrack":ac.push(SUDA[Z].slice(1));break;case"uaTrack":R.push(SUDA[Z].slice(1));break}}}aY=(function(D,i){if(aw.top==aw){return false}else{try{if(M.body.clientHeight==0){return false}return((M.body.clientHeight>=D)&&(M.body.clientWidth>=i))?false:true}catch(aZ){return true}}})(320,240);F=(function(){return false})();aL.setUOR();var aK=aL.sessionId();window.SUDA=window.SUDA||[];SUDA.sudaCount=SUDA.sudaCount||0;SUDA.log=function(){B.apply(null,arguments)};SUDA.acTrack=function(){an.apply(null,arguments)};SUDA.uaTrack=function(){aG.apply(null,arguments)};ae(M.body,"click",aU);window.GB_SUDA=SUDA;GB_SUDA._S_pSt=function(){};GB_SUDA._S_acTrack=function(){an.apply(null,arguments)};GB_SUDA._S_uaTrack=function(){aG.apply(null,arguments)};window._S_pSt=function(){};window._S_acTrack=function(){an.apply(null,arguments)};window._S_uaTrack=function(){aG.apply(null,arguments)};window._S_PID_="";if(!window.SUDA.disableClickstream){C()}try{l()}catch(ad){}function J(e){var i;i=e+"=";offset=document.cookie.indexOf(i);if(offset!=-1){offset+=i.length;end=document.cookie.indexOf(";",offset);if(end==-1){end=document.cookie.length}return document.cookie.substring(offset,end)}else{return""}}function O(i,aZ,a2,a1,a0){var e=new sinaadToolkit.Box({width:160,height:160,position:"left bottom",follow:1,zIndex:10010,autoShow:1});e.getMain().innerHTML=sinaadToolkit.ad.createHTML("image","http://newsurvey.client.sina.com.cn/PerUserData/1/invite.png","160px","160px","http://newsurvey.client.sina.com.cn/q.php?qname=survey_pc2016");var D=document.createElement("div");D.style.cssText+=";width: 40px; height: 18px; position: absolute; right: 0px; top: 0px; cursor: pointer; background: url(http://newsurvey.client.sina.com.cn/static/img/close-h.jpg) 0% 50% no-repeat rgb(235, 235, 235);";e.getMain().appendChild(D);D.onclick=function(){e.hide()}}var N="user_survey";var p=30;var al=3;var c=50;var aN="";var G="";var z=750;var K=600;var s=new Array(480);function aI(i){var e=w(N);if(e!=""){e=(parseInt(e)+1)+""}else{e="1"}if(i!=""&&i!="undefined"&&i!=null){e=i}aJ(N,e,p)}function ap(e){if(w(e)==""){return false}return true}function aT(i){var e=Math.floor(Math.random()*100);if(i>e){return true}else{return false}}function ak(){var i=/\/(www|news|finance|sports|fashion|eladies|ent|tech|auto|video|edu|travel|astro|baby|test\.www|data|webtest|)\.sina\.com\.cn.*/;var e=/\/iframe\//;var D=document.location.href.toLowerCase();if(D.match(i)&&!D.match(e)){return true}else{return false}}function ao(){var i=Math.floor(Math.random()*s.length);var e=O(s[i],0,100,z,K)}function ab(){dt=new Date();sdt=((dt.getYear()+1900)*10000+(1+dt.getMonth())*100+dt.getDate()).toString();var e=w(N);if(e==""||e.length!=10||e.search(sdt)!=0){aJ(N,sdt+"00");return true}else{cnt=parseInt(e.substr(8,2));if(cnt<(al-1)){cnt++;aJ(N,sdt+"0"+cnt);return true}else{return false}}}function aA(){try{if(!ak()){return}var i=w(G);if(i=="1"){return}if(aT(c)){if(ab()){ao()}else{}}}catch(D){}}poploopcnt=0;if(typeof(sinaadToolkit)=="undefined"&&poploopcnt<3){poploopcnt++;setTimeout(aA,2000)}else{if(!(typeof(sinaadToolkit)=="undefined")){aA()}}})();
+//-->
+</script> 
+<noScript> 
+<div style='position:absolute;top:0;left:0;width:0;height:0;visibility:hidden'><img width=0 height=0 src='http://beacon.sina.com.cn/a.gif?noScript' border='0' alt='' /></div> 
+</noScript> 
+<!-- SUDA_CODE_END -->
+
+<!-- SSO_GETCOOKIE_START -->
+<script type="text/javascript">var sinaSSOManager=sinaSSOManager||{};sinaSSOManager.getSinaCookie=function(){function dc(u){if(u==undefined){return""}var decoded=decodeURIComponent(u);return decoded=="null"?"":decoded}function ps(str){var arr=str.split("&");var arrtmp;var arrResult={};for(var i=0;i<arr.length;i++){arrtmp=arr[i].split("=");arrResult[arrtmp[0]]=dc(arrtmp[1])}return arrResult}function gC(name){var Res=eval("/"+name+"=([^;]+)/").exec(document.cookie);return Res==null?null:Res[1]}var sup=dc(gC("SUP"));if(!sup){sup=dc(gC("SUR"))}if(!sup){return null}return ps(sup)};</script>
+<!-- SSO_GETCOOKIE_END -->
+
+<script type="text/javascript">new function(r,s,t){this.a=function(n,t,e){if(window.addEventListener){n.addEventListener(t,e,false);}else if(window.attachEvent){n.attachEvent("on"+t,e);}};this.b=function(f){var t=this;return function(){return f.apply(t,arguments);};};this.c=function(){var f=document.getElementsByTagName("form");for(var i=0;i<f.length;i++){var o=f[i].action;if(this.r.test(o)){f[i].action=o.replace(this.r,this.s);}}};this.r=r;this.s=s;this.d=setInterval(this.b(this.c),t);this.a(window,"load",this.b(function(){this.c();clearInterval(this.d);}));}(/http:\/\/www\.google\.c(om|n)\/search/, "http://keyword.sina.com.cn/searchword.php", 250);</script>
+<!-- body code end -->
+
+<script type="text/javascript">
+</script>
+<div id="container">
+	<!--header begin-->
+	<div id="header">
+		<div class="secondary-header">
+				<div class="logo"><span><a href="http://finance.sina.com.cn/"><img alt="新浪网" src="http://i1.sinaimg.cn/dy/images/header/2009/standardl2nav_sina_new.gif"></a><a href="http://finance.sina.com.cn/"><img alt="新浪财经" src="http://i1.sinaimg.cn/dy/images/header/2009/standardl2nav_finance.gif"></a></span></div>
+				<div class="links"><a href="http://finance.sina.com.cn/">财经首页</a>&nbsp;|&nbsp;<a href="http://www.sina.com.cn/">新浪首页</a>&nbsp;|&nbsp;<a href="http://news.sina.com.cn/guide/">新浪导航</a></div>
+		</div>
+		<div style="*zoom:1;margin-top:10px;"><!-- 顶部通栏广告 BEGIN 2008-6-30 -->
+		<iframe frameborder="0" height="100" width="980" scrolling="no" src="http://finance.sina.com.cn/iframe/463/2008/0617/5.html"></iframe>
+		<!-- 顶部通栏广告 END --></div>
+		<ul class="nav">
+			<li class="label"><a href="http://finance.sina.com.cn/">财经首页</a></li>
+			<li class="v-line"><a target="_blank" href="http://finance.sina.com.cn/futuremarket/">期货首页</a></li>
+			<li><a target="_blank" href="http://finance.sina.com.cn/futuremarket/metalroll.html">金属</a></li>
+			<li><a target="_blank" href="http://finance.sina.com.cn/futuremarket/oilroll.html">能源化工</a></li>
+			<li><a target="_blank" href="http://finance.sina.com.cn/futuremarket/agriroll.html">农产品</a></li>
+			<li><a target="_blank" href="http://vip.stock.finance.sina.com.cn/q/view/vFutures_Positions_cjcc.php">商品持仓</a></li>
+			<li class="v-line"><a target="_blank" href="http://finance.sina.com.cn/nmetal/">贵金属</a></li>
+			<li><a target="_blank" href="http://roll.finance.sina.com.cn/finance/gjs/hjzx/index.shtml">黄金</a></li>
+			<li><a target="_blank" href="http://roll.finance.sina.com.cn/finance/gjs/byfx/index.shtml">白银</a></li>
+			<li class="v-line"><a target="_blank" href="http://finance.sina.com.cn/qizhi/">股指期货</a></li>
+			<li><a target="_blank" href="http://vip.stock.finance.sina.com.cn/q/view/vCffex_Positions_cjcc.php">期指持仓</a></li>
+			<li class="v-line"><a target="_blank" href="http://vip.stock.finance.sina.com.cn/mkt/#hs300">行情中心</a></li>
+			<li><a target="_blank" href="http://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html">内盘行情</a></li>
+			<li><a target="_blank" href="http://finance.sina.com.cn/money/future/hf.html">外盘行情</a></li>
+		</ul>
+		 <!--滚动新闻 开始-->
+<div id="box-scroll-news-wrap">
+	<span class="scroll-title"><a href="http://roll.finance.sina.com.cn/finance/gjs/index_1.shtml" target="_blank">滚动新闻</a></span>
+	<div class="scroll-news" id="box-scroll-news">
+	<p class="item">			<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqhka3329704.shtml" target="_blank">[短讯]南非统计局：南非11月黄金产量同比下降9.4%<span class="time">(17:39)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3858747.shtml" target="_blank">加息前景恐打压贵金属 白银跌幅或超黄金？<span class="time">(15:59)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3856406.shtml" target="_blank">避险情绪犹盛 黄金攀至1210上方<span class="time">(15:39)</span></a>
+
+	</p><p class="item">			<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3855777.shtml" target="_blank">[短讯]上海黄金交易所黄金T+D周二（1月17日）午盘收盘上涨0.93%报271.88元/克<span class="time">(15:34)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3855774.shtml" target="_blank">[短讯]上海黄金交易所白银T+D周二（1月17日）午盘收盘上涨0.55%报4040.00元/千克<span class="time">(15:34)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3852746.shtml" target="_blank">脱欧演讲 川普就任倒计时 黄金重现巨大战略性买机<span class="time">(15:04)</span></a>
+
+	</p><p class="item">			<a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3312921.shtml" target="_blank">黄金刷新11月中期来最高位 重点关注100日均线1221.22<span class="time">(14:56)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3309838.shtml" target="_blank">英国“硬脱欧”引爆避险 黄金突破1210迈向七连阳<span class="time">(14:26)</span></a>
+
+				<a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqhka3305718.shtml" target="_blank">[短讯]现货黄金价格升至8周以来高位，现报1208.70美元/盎司<span class="time">(13:44)</span></a>
+
+	</p>	</div>
+</div>
+<!--滚动新闻结束 -->
+
+<!-- 0QhfSafrW5NCYjShv0RAHR//PHot2TqNlwxPMbdxC2bucZhFHg0CED0erAk5gV2ySP17rQIcK+skZG9XJGJcsfLNv1t5Za/N764kO5DsUBbxaKrH58W6SHxoVqbVlyT+7u0I3FrC2VoEivo1FaKfLAHEIj1r7YeMa/RAYnidfnsPtsvKjTbZz4gunfVfFQWbOJ/7A+X97oOo2ogrqV60Gkmnp+JpPxO7OAG5Dsd68uTFCQv9eZv3rA== -->		<form class="query-form fake-select-wrap" target="_blank" method="post" action="javascript:void(0);"><select class="fake-select select-jys"><option>交易所</option></select><select class="fake-select select-pz"><option>品种</option></select><select class="fake-select select-hy"><option>合约</option></select><span class="fake-input fake-query"><span class="fake-submit"></span><input type="submit" id="btn-query-hq" value="提交" /></span></form>
+		<div class="bread-crumb">
+						<p class="crumb"><a href="http://finance.sina.com.cn/" >新浪财经</a> &gt; <a href="http://finance.sina.com.cn/futuremarket/">期货</a> &gt; COMEX白银</div>
+				</div>
+	<!--header begin-->
+	<!--middle begin-->
+	<div id="middle">
+		<div id="left">
+			<div class="section" id="box-futures-latest-wrap">
+				<h3 class="title title-recent-kind">最近浏览品种</h3>
+				<div id="box-latest-and-hot-futures">
+					<!--最近访问-->
+					<div id="box-latest-futures">
+						<table cellpadding="0" class="table" id="table-latest" cellspacing="0" width="100%">
+							<colgroup>
+								<col span="1" width="34%" />
+								<col span="1" width="32%" />
+								<col span="1" width="24%" />
+								<col span="1" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>品种名称</th>
+									<th>最新价</th>
+									<th>涨跌幅</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody id="tbody-latest">
+								<!--tr id="futures-code-040004">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn btn-close" data-code="040004" href="javascript:void(0);"><span>删除</span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn btn-close" data-code="040004" href="javascript:void(0);"><span>删除</span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn btn-close" data-code="040004" href="javascript:void(0);"><span>删除</span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn btn-close" data-code="040004" href="javascript:void(0);"><span>删除</span></a>
+								</tr-->
+							</tbody>
+						</table>
+					</div>
+					<!--最近访问-->
+					<!--热门基金-->
+					<div id="box-hot-futures">
+						<table cellpadding="0" class="table" id="table-hot" cellspacing="0" width="100%">
+							<colgroup>
+								<col span="1" width="34%" />
+								<col span="1" width="32%" />
+								<col span="1" width="24%" />
+								<col span="1" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th colspan="4">
+										<h3>以下是热门期货</h3>
+									</th>
+								</tr>
+							</thead>
+							<tbody id="tbody-hot">
+								<!--tr id="futures-code-040004">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn fake"><span></span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn fake"><span></span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn fake"><span></span></a>
+								</tr>
+								<tr id="futures-code-040005">
+									<td><a href="#">华安宝利</a>
+									<td><span class="price">0.5861</span>
+									<td><span class="amt">+1.17%</span>
+									<td><a class="btn fake"><span></span></a>
+								</tr-->
+							</tbody>
+						</table>
+					</div>
+					<!--热门基金-->
+				</div>
+			</div>
+						<!--外盘期货报价-->
+			<div class="section" id="box-currency-futures-wrap">
+				<p class="more"><a href="http://finance.sina.com.cn/money/future/hf.html" target="_blank">更多></a>
+				<h3 class="title title-currency-futures">外盘期货报价</h3>
+				<div id="box-currency-futures">
+
+				</div>
+			</div>
+			<!--外盘期货报价-->		
+			
+			<!--主力合约报价-->
+			<div class="section" id="box-main-contract-price-wrap">
+				<p class="more"><a href="http://vip.stock.finance.sina.com.cn/quotes_service/view/qihuohangqing.html" target="_blank">更多></a>
+				<h3 class="title title-main-contract-price">主力合约报价</h3>
+				<div id="box-main-contract-price">
+					
+				<table width="100%" cellspacing="0" cellpadding="0" id="table-contract-price" class="table">
+					<colgroup><col width="34%" span="1"><col width="33%" span="1"><col span="1"></colgroup>
+					<thead><tr><th>品种名称</th><th>最新价</th><th>涨跌幅</th></tr></thead>
+					<tbody>	
+					<tr class="red" id="futures-code-contract-A1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/A1705.shtml">A1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-AG1706">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/AG1706.shtml">AG1706</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-AL1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/AL1703.shtml">AL1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-AU1706">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/AU1706.shtml">AU1706</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-B1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/B1703.shtml">B1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-BB1801">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/BB1801.shtml">BB1801</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-BU1706">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/BU1706.shtml">BU1706</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-C1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/C1705.shtml">C1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-CF1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/CF1705.shtml">CF1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-CS1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/CS1705.shtml">CS1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-CU1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/CU1703.shtml">CU1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-FB1702">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/FB1702.shtml">FB1702</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-FG1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/FG1705.shtml">FG1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-FU1704">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/FU1704.shtml">FU1704</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-HC1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/HC1705.shtml">HC1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-I1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/I1705.shtml">I1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-IC1701">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/IC1701.shtml">IC1701</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-IF1701">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/IF1701.shtml">IF1701</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-IH1701">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/IH1701.shtml">IH1701</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-J1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/J1705.shtml">J1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-JD1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/JD1705.shtml">JD1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-JM1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/JM1705.shtml">JM1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-JR1711">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/JR1711.shtml">JR1711</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-L1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/L1705.shtml">L1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-LR1711">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/LR1711.shtml">LR1711</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-M1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/M1705.shtml">M1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-MA1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/MA1705.shtml">MA1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-NI1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/NI1705.shtml">NI1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-OI1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/OI1705.shtml">OI1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-P1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/P1705.shtml">P1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-PB1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/PB1703.shtml">PB1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-PP1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/PP1705.shtml">PP1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-RB1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/RB1705.shtml">RB1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-RI1709">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/RI1709.shtml">RI1709</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-RM1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/RM1705.shtml">RM1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-RS1707">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/RS1707.shtml">RS1707</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-RU1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/RU1705.shtml">RU1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-SF1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/SF1705.shtml">SF1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-SM1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/SM1705.shtml">SM1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-SN1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/SN1705.shtml">SN1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-SR1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/SR1705.shtml">SR1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-T1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/T1703.shtml">T1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-TA1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/TA1705.shtml">TA1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-TF1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/TF1703.shtml">TF1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-V1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/V1705.shtml">V1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-WH1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/WH1705.shtml">WH1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-WR1710">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/WR1710.shtml">WR1710</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-Y1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/Y1705.shtml">Y1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-ZC1705">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/ZC1705.shtml">ZC1705</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+					
+					<tr class="red" id="futures-code-contract-ZN1703">
+						<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/futures/quotes/ZN1703.shtml">ZN1703</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+					</tr>
+				</tbody>
+				</table>		
+				</div>
+			</div>
+			<!--主力合约报价-->
+						<!--相关股票-->
+			<div class="section" id="box-relate-stock-wrap">
+							<h3 class="title title-relate-stock">相关股票</h3>
+				<div id="box-relate-stock">
+					
+			<table width="100%" cellspacing="0" cellpadding="0" id="table-stock-price" class="table">
+				<colgroup><col width="34%" span="1"><col width="33%" span="1"><col span="1"></colgroup>
+				<thead><tr><th>品种名称</th><th>最新价</th><th>涨跌幅</th></tr></thead>
+				<tbody><tr class="red" id="futures-code-stock-sz000975">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sz000975/nc.shtml">sz000975</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sz000587">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sz000587/nc.shtml">sz000587</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sz002731">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sz002731/nc.shtml">sz002731</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sh600385">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sh600385/nc.shtml">sh600385</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sh600547">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sh600547/nc.shtml">sh600547</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sz002721">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sz002721/nc.shtml">sz002721</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sz002237">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sz002237/nc.shtml">sz002237</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sh600824">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sh600824/nc.shtml">sh600824</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sh600711">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sh600711/nc.shtml">sh600711</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						<tr class="red" id="futures-code-stock-sh600489">
+									<td style="text-align:left;"><a target="blank" href="http://finance.sina.com.cn/realstock/company/sh600489/nc.shtml">sh600489</a></td><td><span class="price">--</span></td><td><span class="amt">--</span></td>
+							  </tr>
+						</tbody>
+			</table>
+					
+				</div>
+			</div>
+			<!--相关股票-->
+		</div>
+		<!--left-->
+		<!--right-->
+		<div id="right">
+			<p class="tip-delay" style = "margin-top:-26px;bottom:-34px;">
+				<span style="font-size: 14px; color: red; margin-right: 10px;">
+					<a target="_blank" href="http://survey.news.sina.com.cn/survey.php?id=78351" style="color:red">意见反馈</a>
+											<a id="btn-old-chart" style="display: inline-block; cursor: pointer; font-size:12px;color: rgb(51, 51, 51);" href="http://finance.sina.com.cn/futures/quotes/SI.shtml">查看旧版行情图</a>
+									</span>
+				 数据来源: 倚天财经			</p>
+			<div class="futures-title"><h1 class="title">COMEX白银</h1><span class="code">(SI)</span></div>
+			<!--期货行情-->
+			<div id="box-futures-hq-wrap">
+				<table cellpadding="0" id="table-box-futures-hq" class="table" cellspacing="0" width="100%">
+					<colgroup>
+						<col style="width:30%;" span="1" />
+						<col style="width:12%;" span="1" />
+						<col span="1" />
+						<col style="width:12%;" span="1" />
+						<col span="1" />
+						<col style="width:12%;" span="1" />
+						<col span="1" />
+						<col style="width:12%;" span="1" />
+						<col span="1" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<td rowspan="3">
+								<div class="box-simple-basic-info">
+									<span class="real-price price">--</span><span class="arrow"></span>
+									<p class="change-wrap"><span class="amt-value">--</span> <span class="amt">--</span></p>
+								</div>
+								<p class="trade-time time">--</p>
+							<th>最新价:
+							<td class="price">--
+							<th>开盘价:
+							<td class="open-price">--
+							<th>最高价:
+							<td class="max-price">--
+							<th>最低价:
+							<td class="min-price">--
+						</tr>
+						<tr>
+							<th>结算价:
+							<td class="close-price">--
+							<th>昨结算:
+							<td class="yestoday-price">--
+							<th>持仓量:
+							<td class="amount">--
+							<th>成交量:
+							<td class="volume">--
+						</tr>
+						<tr>
+							<th>买&nbsp;&nbsp;价:
+							<td class="buy">--
+							<th>卖&nbsp;&nbsp;价:
+							<td class="sell">--
+							<th>买&nbsp;&nbsp;量:
+							<td class="buy-amount">--
+							<th>卖&nbsp;&nbsp;量:
+							<td class="sell-amount">--
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--期货行情-->
+			<!--flash-->
+			<table cellpadding="0" id="table-box-futures-flash"  cellspacing="0" width="100%">
+				<colgroup>
+					<col width="72%" span="1" />
+					<col span="1" />
+				</colgroup>
+				<tr>
+					<td style="padding:0;vertical-align:top;">
+                    	<!-- 理财师投资观点 -->
+						<div style="margin-top:-1px; margin-right:-1px;">
+														<div node-type="lcsTradeTimeContent" data-type="2" data-indid="4"></div>
+						</div>
+						<!-- 理财师投资观点 -->
+						<div class="lcs-dd"><div class="lcs-dn"></div></div>
+
+					<div style="overflow:hidden;">
+						<div id="box-flash-wrap" style="width:558px; height:450px; color:#000000;">
+						</div>
+					</div>
+					<div id="box-calc-area">
+						<p class="fake-select-wrap"><select class="fake-select select-jys"><option>交易所</option></select><select class="fake-select select-pz"><option>品种</option></select><select class="fake-select select-hy"><option>合约</option></select><input type="text" class="date-picker text normal" id="date-from" /> 至 <input type="text" class="date-picker text normal" id="date-to" /> <a class="btn btn-query" id="btn-query-history"><span>历史交易查询</span></a>
+						<p id="box-futures-calc">
+					</div>
+					<td style="border-left:1px solid #CEE4F2;padding:0;vertical-align:top;">
+						<div class="section" id="box-month-contract-list-wrap">
+							<p class="more"><a target="_blank" href="http://vip.stock.finance.sina.com.cn/mkt/#by_qh">更多></a>
+							<h3 class="title title-relate-inner-future">相关内盘期货</h3>							<div id="box-month-contract-list">
+								<!--table cellpadding="0" class="table" id="table-month-contract-list" cellspacing="0" width="100%">
+									<colgroup>
+										<col span="1" width="30%" />
+										<col span="1" width="30%" />
+										<col span="1" width="30%" />
+										<col span="1" width="10%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>品种名称</th>
+											<th>最新价</th>
+											<th>涨跌幅</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr id="futures-code-040004">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040005">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040004">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040005">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040004">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040005">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040004">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+										<tr id="futures-code-040005">
+											<td><a href="#">华安宝利</a>
+											<td><span class="price">0.5861</span>
+											<td><span class="amt">+1.17%</span>
+										</tr>
+									</tbody>
+								</table-->
+							</div>
+						</div>
+						<div class="section" id="box-hot-recommand-list-wrap">
+							<h3 class="title title-hot-recommand-list">热点推荐</h3><!DOCTYPE html>
+<!--[31,333,1668] published at 2017-01-17 17:51:02 from #130 by system-->
+<ul id="box-hot-recommand-list">
+
+<li>商品：<a href="http://finance.sina.com.cn/money/future/hangqing.shtml
+" target="_blank">商品行情</a>
+		<a href="http://finance.sina.com.cn/money/future/hf.html
+" target="_blank">外盘期货</a> <a href="http://finance.sina.com.cn/money/future/futuretool.html
+" target="_blank">期货换算</a></li>
+
+<li>期指：<a href="http://vip.stock.finance.sina.com.cn/mkt/#qz_qh
+" target="_blank">期指行情</a> <a href="http://finance.sina.com.cn/qizhi/hs300.html#gxzs
+" target="_blank">行业指数</a>
+		<a href="http://finance.sina.com.cn/qizhi/hs300.html#qz
+" target="_blank">权重股票</a></li>
+
+<li>持仓：<a href="http://vip.stock.finance.sina.com.cn/q/view/vFutures_Positions_cjcc.php
+" target="_blank">商品持仓</a> <a href="http://vip.stock.finance.sina.com.cn/q/view/vCffex_Positions_cjcc.php
+" target="_blank">期指持仓</a> <a href="http://finance.sina.com.cn/futures/quotes/CFCTGC.shtml" target="_blank">CFTC持仓</a></li>
+
+<li>现货：<a href="http://finance.sina.com.cn/futuremarket/spotprice.shtml#titlePos_4
+" target="_blank">现货报价</a> <a href="http://finance.sina.com.cn/futuremarket/spotprice.shtml#titlePos_2
+" target="_blank">泛亚有色</a> <a href="http://vip.stock.finance.sina.com.cn/q/view/vGold_Matter_History.php
+" target="_blank">黄金现货</a></li>
+
+<li>产品：<a href="http://biz.finance.sina.com.cn/futures/ask/
+" target="_blank">专家坐堂</a>
+		<a href="http://slide.finance.sina.com.cn/i_list_9_38679.html
+" target="_blank">高清解盘</a> <a href="http://finance.sina.com.cn/worldmac/" target="_blank">宏观数据</a></li>
+
+<li>资讯：<a href="http://roll.finance.sina.com.cn/finance/qh/qsyw/index.shtml
+" target="_blank">期市要闻</a>
+		<a href="http://roll.finance.sina.com.cn/finance/qh/pzyj/index.shtml
+" target="_blank">期货研究</a> <a href="http://finance.sina.com.cn/futuremarket/comm_all.html
+" target="_blank">机构评论</a></li>
+
+<li>微博：<a href="http://finance.sina.com.cn/tblog/2011-06-20/166.html" target="_blank">公司高管</a> <a href="http://finance.sina.com.cn/focus/qhgswb/" target="_blank">研究分析</a>  <a href="http://finance.sina.com.cn/focus/qhgsrzwb/" target="_blank">知名公司</a></li>
+
+<li>入门：<a href="http://finance.sina.com.cn/futuremarket/help/1.html
+" target="_blank">期货入门</a> <a href="http://finance.sina.com.cn/futuremarket/help/15.html
+" target="_blank">品种大全</a> <a href="http://finance.sina.com.cn/futuremarket/help/27.html
+" target="_blank">投资理论</a></li>
+
+<li>互动：<a href="http://licaishi.sina.com.cn/web/index?ind_id=3
+" target="_blank">新浪期货理财师</a> <a href="http://guba.sina.com.cn/?s=bar&name=%C6%DA%BB%F5
+" target="_blank">新浪期货吧</a> </li>
+
+</ul>
+
+						</div>
+				</tr>
+			</table>
+			<!--flash-->
+			<!--基本资料-->
+							<div class="section" id="box-futures-basic-data-wrap">
+					<h3 class="title title-futures-basic-data">基本资料</h3>
+					<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[31,882,29] published at 2016-11-22 10:56:36 from #130 by 13388-->
+
+<table width="100%" cellspacing="0" cellpadding="0" id="table-futures-basic-data" class="table">
+<colgroup>
+<col width="10%" span="1">
+<col width="23%" span="1">
+<col width="10%" span="1">
+<col width="23%" span="1">
+<col width="10%" span="1">
+<col span="1">
+</colgroup>
+<tbody>
+<tr>
+<th>交易品种
+</th><td>COMEX白银
+</td><th>交易单位
+</th><td>5000金衡盎司 
+</td><th>报价单位
+</th><td>美元美分/美金衡盎司
+</td></tr>
+<tr>
+<th>最小变动价位
+</th><td>0.1美元/盎司
+</td><th>涨跌停板幅度
+</th><td>无涨跌停限制
+</td><th>合约交割月份
+</th><td>交易交割在交易当月、之后2个月、23个月期间内的任何1月、3月、5月、9月 ，以及当前交易月开始后的60个月期间内的任何7月与12月 
+</td></tr>
+<tr>
+<th>交易时间
+</th><td>电子盘：周日-周五美东时间6:00p.m.–5:15p.m.(5:00p.m.–4:15p.m美中时间)美东时间5:15 p.m（美中时间4:15p.m.）开始休息45分钟。公开喊价：周一至周五8:25a.m.-1:25p.m.(美东时间)/7:25a.m.-12:25 p.m.（美中时间）
+</td><th>交割品级
+</th><td>交付的白银应符合最低限度的999成色检测 
+</td><th>交割地点
+</th><td>
+</td></tr>
+<tr>
+<th>交易代码
+</th><td>SI
+</td><th>上市交易所
+</th><td>纽约商品交易所（芝加哥商业交易所集团）
+</td><th>附加信息
+</th><td>最小的价格波动值：单笔交易包括期货转现货：0.5美分/金衡盎司，跨式或套利交易及结算价格:0.1美分/金衡盎司。
+</td></tr>
+</tbody>
+</table>
+				</div>
+						<!--基本资料-->
+			
+						<!--多空调查和专家答疑-->
+			<div class="section segment">
+				<div class="float-left" id="box-many-survey-wrap">
+				</div>
+				<div class="float-right" id="box-expert-answer-wrap">
+					<p class="more"><a href="http://biz.finance.sina.com.cn/futures/ask/" target="_blank" >更多></a>
+					<h3 class="title title-expert-answer">专家答疑</h3>
+					<div id="box-expert-answer">
+						<div class="img-wrap"></div>
+						<div class="desc">
+							<h4>今日在线专家:时岩</h4>
+							<p>期货投资中有疑问吗？那就进来听听在线坐堂专家的投资建议吧。<a href="">[详细]</a>
+							<P style="padding-top:5px;"><a class="btn btn-question"><span>点击提问</span></a>
+						</div>
+						<div class="experts-list">
+							<span>专家：</span><li class="current"><a href="">时&nbsp;&nbsp;岩</a></li><li><a href="">李&nbsp;&nbsp;奇</a></li><li><a href="">梁丽娟</a></li><li><a href="">罗&nbsp;&nbsp;严</a></li><li><a href="">梁慧勇</a></li>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--多空调查和专家答疑-->
+						<!--资讯和分析-->
+			<div class="section segment">
+				 <!-- 黄金资讯开始 -->
+<div class="float-left" id="box-information-wrap">
+	<p class="more"><a href="http://finance.sina.com.cn/futuremarket/gold.html" target="_blank">更多></a>
+	<h3 class="title title-gold-information">黄金资讯</h3>
+	<div id="box-information">
+		<ul class="news-list">
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqhka3329704.shtml" target="_blank">[短讯]南非统计局：南非11月黄金产量同比下降9.4%</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3858747.shtml" target="_blank">加息前景恐打压贵金属 白银跌幅或超黄金？</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3856406.shtml" target="_blank">避险情绪犹盛 黄金攀至1210上方</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3855777.shtml" target="_blank">[短讯]上海黄金交易所黄金T+D周二（1月17日）午盘收盘上涨0.93%报271.88元/克</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3855774.shtml" target="_blank">[短讯]上海黄金交易所白银T+D周二（1月17日）午盘收盘上涨0.55%报4040.00元/千克</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjzx/2017-01-17/doc-ifxzqnva3852746.shtml" target="_blank">脱欧演讲 川普就任倒计时 黄金重现巨大战略性买机</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3312921.shtml" target="_blank">黄金刷新11月中期来最高位 重点关注100日均线1221.22</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3309838.shtml" target="_blank">英国“硬脱欧”引爆避险 黄金突破1210迈向七连阳</a><span class="date">01-17</span></li>	
+				</ul>
+	</div>
+</div>
+<!-- 黄金资讯结束 -->
+
+<!-- 0QhfSafrW5NCYjShv0RAHR//PHot2TqNlwxPMbdxC2bucZhFHg0CED0erAk5gV2ySP17rQIcK+skZG9XJGJcsfLNv1t5Za/N764kO5DsUBbxaKrH58W6SHxoVqbVlyT+7u0I3FrC2VoEivo1FaKfLAHEIj1r7YeMa/RAYnidfnsPtsvKjTbZz4gunfVfFQWbOJ/7A+X97oOo2ogrqV60Gkmnp+JpPxO7OAG5Dsd68uTFCQv9eZv3rA== -->				 <!--白银资讯开始  -->
+<div class="float-right" id="box-analysis-wrap">
+	<p class="more"><a href="http://roll.finance.sina.com.cn/finance/gjs/byfx/index.shtml" target="_blank">更多></a>
+	<h3 class="title title-sliver-information">白银资讯</h3>
+	<div id="box-analysis">
+		<ul class="news-list">
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnip1522196.shtml" target="_blank">吴旺鑫：黄金杜绝做空 避险需求支撑连涨</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnip1521984.shtml" target="_blank">李生论金：黄金数日连阳破顶 慢涨加速将延续</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnim4757145.shtml" target="_blank">齐仲龙：英国脱欧方案将再次震动全球 黄金依托1199多</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnip1496361.shtml" target="_blank">曾辉：破位刷新高 黄金先守千二关口都是多</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnim4743667.shtml" target="_blank">陈峻齐：英国脱欧助推金价上行 减产难行原油反弹空</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-17/doc-ifxzqnim4742966.shtml" target="_blank">罗易彬：黄金乘避险反弹 千二不破就是多</a><span class="date">01-17</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-13/doc-ifxzqnim4192650.shtml" target="_blank">李兴淼：黄金承压前期阻力回撤蓄力再看涨</a><span class="date">01-13</span></li>	
+									<li><a href="http://finance.sina.com.cn/money/nmetal/byfx/2017-01-13/doc-ifxzqnim4189279.shtml" target="_blank">兆丰恒业：金价冲高回吐大部分涨幅 可能阶段性见顶</a><span class="date">01-13</span></li>	
+					</ul>
+	</div>
+</div>
+<!--白银资讯结束 -->
+<!-- Lt6qEY+WUe1ksJW76wx/8zGvZhfGx1QAMGNbBBGT9iXDBMeamQN/ASX+yDyft7lEoensn343rDDZll2uC8BN4yzCvEde29eD+0rspb6bc1/P/SdfuKW8lGjIEKYlAjpoBU97a5Dx5dmJiuUAm8/6b3cOR3D/KKEYgdHbievg9PWabEjKSRxZShUj7a57xNv+k2EG0XcekA2146DpWQboLzd7/H49IrX8c+bCinHpd+vCaEdwel/d9g== -->			</div>
+			<!--资讯和分析-->
+						<!--研究报告和机构报告-->
+			<div class="section segment">
+				 <!-- 黄金评论开始 -->
+<div class="float-left" id="box-research-report-wrap">
+	<p class="more"><a href="http://roll.finance.sina.com.cn/finance/gjs/hjfx/index.shtml" target="_blank">更多></a>
+	<h3 class="title title-gold-comment">黄金评论</h3>
+	<div id="box-research-report">
+		<ul class="news-list">
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjfx/2017-01-17/doc-ifxzqnim4815245.shtml" target="_blank">兆丰恒业：金价今日终获突破 守稳将打开上升空间</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjfx/2017-01-17/doc-ifxzqnim4811331.shtml" target="_blank">国泰金业：黄金有望再涨 动荡市场利好金价 </a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjfx/2017-01-17/doc-ifxzqnip1564347.shtml" target="_blank">潘星权：现货黄金价格再次刷新高度 金价走势多头势不可挡</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/nmetal/hjfx/2017-01-17/doc-ifxzqnip1549667.shtml" target="_blank">李兴淼：英国硬脱欧风险助推黄金继续上涨</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3845626.shtml" target="_blank">脱欧演讲、特朗普就任在即 黄金成为避险工具焦点</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3305501.shtml" target="_blank">金盛贵金属：地缘政治紧张推高金价</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3843729.shtml" target="_blank">国泰金业：英国硬脱欧机会大 黄金再破近两个月高位</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-16/doc-ifxzqnva3745023.shtml" target="_blank">易维哲：硬脱欧助现货黄金破新高 千二之上继续看多</a><span class="date">01-16</span></li>	
+				</ul>
+	</div>
+</div>
+<!-- 黄金评论结束 -->
+
+<!-- Lt6qEY+WUe1ksJW76wx/8zGvZhfGx1QAMGNbBBGT9iXDBMeamQN/ASX+yDyft7lEoensn343rDDZll2uC8BN4yzCvEde29eD+0rspb6bc1/P/SdfuKW8lGjIEKYlAjpoBU97a5Dx5dmJiuUAm8/6b3cOR3D/KKEYgdHbievg9PWabEjKSRxZShUj7a57xNv+k2EG0XcekA2146DpWQboLzd7/H49IrX8c+bCinHpd+vCaEdwel/d9g== -->				 <!-- 即时数据开始 -->
+<div class="float-right" id="box-agencies-report-wrap">
+	<p class="more"><a href="http://roll.finance.sina.com.cn/finance/wh/sjfx/index.shtml" target="_blank">更多></a>
+	<h3 class="title title-live-data">即时数据</h3>
+	<div id="box-agencies-report">
+		<ul class="news-list">
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868792.shtml" target="_blank">英国 12月未季调核心生产者输入物价指数(年率)</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868783.shtml" target="_blank">英国 12月未季调核心生产者输入物价指数(月率)</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868513.shtml" target="_blank">英国CPI即将公布 英镑/美元上行在1.2140附近乏力</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3330038.shtml" target="_blank">饶易鑫：油价暴涨 1.17原油白银策略</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868507.shtml" target="_blank">花旗：深圳股市一度急挫6%</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868506.shtml" target="_blank">英国 12月核心消费者物价指数(月率)</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqhka3330031.shtml" target="_blank">1.17脱欧来袭，晚间原油白银天然气如何</a><span class="date">01-17</span></li>	
+							<li><a href="http://finance.sina.com.cn/money/forex/datafx/2017-01-17/doc-ifxzqnva3868500.shtml" target="_blank">世界经济前景蒙上阴影 黄金无惧加息奔向1250</a><span class="date">01-17</span></li>	
+				</ul>
+	</div>
+</div>
+<!-- 即时数据结束 -->
+
+
+<!-- Lt6qEY+WUe1ksJW76wx/8zGvZhfGx1QAMGNbBBGT9iXDBMeamQN/ASX+yDyft7lEoensn343rDDZll2uC8BN4yzCvEde29eD+0rspb6bc1/P/SdfuKW8lGjIEKYlAjpoBU97a5Dx5dmJiuUAm8/6b3cOR3D/KKEYgdHbievg9PWabEjKSRxZShUj7a57xNv+k2EG0XcekA2146DpWQboLzd7/H49IrX8c+bCinHpd+vCaEdwel/d9g== -->			</div>
+			<!--研究报告和机构报告-->
+			 <!--理财师观点列表-->
+      <div class="section lcs-section">
+      		<a href="http://licaishi.sina.com.cn?fr=f_future" target="_blank" class="lcs-lg"></a>
+      		<h3 class="title title-interaction">理财师观点</h3>
+          <div class="section-content" id="lcs-btm-section"></div>
+      </div>
+      <!--理财师观点列表-->
+			<!--微博列表和期货吧-->
+			<div class="section" id="box-interaction-wrap">
+				<h3 class="title title-interaction">互动</h3>
+				<div class="section-content">
+					<div class="box-tab" id="box-tab-interaction">
+						<!--box-tab-title-->
+						<div class="box-tab-title" id="box-tab-interaction-title">
+							<ul>
+								<li><a class="tab-item-latest" data-id="#box-futures-bar" href="javascript:void(0);">期货贴吧</a></li>
+								<li><a class="tab-item-self" data-id="#box-weibo-interaction" href="javascript:void(0);">微博互动</a></li>
+							</ul>
+						</div>
+						<!--box-tab-title-->
+						<!--box-tab-content-->
+						<div class="box-tab-content">
+							<div id="box-futures-bar" class="box-tab-item">
+	<table cellpadding="0" class="table" id="table-futures-bar" cellspacing="0" width="100%">
+			<colgroup>
+					<col span="1" width="6%"/>
+					<col span="1" width="10%" />
+					<col span="1" width="50%" />
+					<col span="1" width="10%" />
+					<col span="1" />
+				</colgroup>
+			<thead>
+				<tr>
+					<th class="text-left">点击</th>
+					<th>回复</th>
+					<th>标题</th>
+					<th>作者</th>
+					<th>最近回复</th>									
+				</tr>
+			</thead>
+			<tbody>
+					<tr>
+				<td class="text-left"></td>
+				<td></td>
+				<td class="text-left"><a href="http://wap.jlr360.com/rooms/1" target="_blank">金理人直播室</a>
+				<td class="author"></td>
+				<td></td>
+			</tr>
+					<tr>
+				<td class="text-left">604</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584950" target="_blank">神泉霸金：亏损停不下来，找过原因没有？</a>
+				<td class="author">轩昂赔默声刃卡纱</td>
+				<td>2017-01-17 16:49:51</td>
+			</tr>
+					<tr>
+				<td class="text-left">1038</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584949" target="_blank">焱氏论金：新手玩微盘投资可以赚到钱吗？怎么玩？</a>
+				<td class="author">焱氏论金</td>
+				<td>2017-01-17 16:49:13</td>
+			</tr>
+					<tr>
+				<td class="text-left">1015</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584948" target="_blank">【天玑透金】如何判断主力在洗盘？</a>
+				<td class="author">用户6075312753</td>
+				<td>2017-01-17 16:46:09</td>
+			</tr>
+					<tr>
+				<td class="text-left">1040</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584944" target="_blank">李玟益：本周两大炸弹来袭，金山云微盘/太湖/艺云爱微盘银油分析</a>
+				<td class="author">李玟益</td>
+				<td>2017-01-17 16:43:40</td>
+			</tr>
+					<tr>
+				<td class="text-left">1834</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584939" target="_blank">庞金言：1.17超级风暴席卷金融市场，梅姨要讲话</a>
+				<td class="author">庞金言</td>
+				<td>2017-01-17 16:38:25</td>
+			</tr>
+					<tr>
+				<td class="text-left">1193</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584936" target="_blank">无论夜晚有多黑暗，黎明总会到来。</a>
+				<td class="author">天斯里兰卡啦丶</td>
+				<td>2017-01-17 16:35:55</td>
+			</tr>
+					<tr>
+				<td class="text-left">1595</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584933" target="_blank">今生言金：1.17你的思维决定你的钱途！投资必备的思维你有吗？</a>
+				<td class="author">用户6024799325</td>
+				<td>2017-01-17 16:28:59</td>
+			</tr>
+					<tr>
+				<td class="text-left">1287</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584931" target="_blank">【徐伟坤】：一位看盘分析师深夜内心的真实独白！</a>
+				<td class="author">徐伟坤r</td>
+				<td>2017-01-17 16:27:50</td>
+			</tr>
+					<tr>
+				<td class="text-left">1510</td>
+				<td>0</td>
+				<td class="text-left"><a href="http://guba.sina.com.cn/?s=thread&bid=10415&tid=3584925" target="_blank">创业板火箭发射宣告阶段调整结束</a>
+				<td class="author">空仓一号</td>
+				<td>2017-01-17 16:18:33</td>
+			</tr>
+					
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="5"  class="text-left"><p class="float-right"><a href="http://guba.sina.com.cn/?s=bar&name=AG0#post" target="_blank">我要发帖</a> <a href="http://guba.sina.com.cn/?s=bar&name=AG0" target="_blank">进入期货吧</a></p><span>主题数：2463149</span><span>帖子数：6884330</span>
+				</tr>
+			</tfoot>
+	</table>
+</div>
+
+
+<!-- cML0+OpLGgAlI+avkXWEB5jAZ5b08Cdi7JyZPBumIZLsascmjosmGZiJU8IY86jEmy8yiymhgaBVgQZWfOIH9ZLONDhxLJJMMN1Hpm7bliGYZSFyQwdTzgVJYFdjocm5Z8v6k/wWU2gE7WOVl5ooJDRl5Ol5zPNpWfU7pslIMAtnsZqpesPIIryEpfZxMJ7wJof7psA+rhu+t2F0jpOkFxKGyZ3KL27qtE+D4LMSR69DGlIP8t4InJvLj6ZlHbVkwml9tzE0/RertsF9 -->							
+							<div id="box-weibo-interaction" class="box-tab-item" style="display:none;">
+								<div id="box-weibo-detail">
+								</div>
+								<div class="box-publish-weibo" id="box-publish-weibo"><p class="float-right has-login-wrap" style="display:none;"><a target="_blank" class="user-name"></a><a class="btn-weibo-logout" href="javascript:void(0);">退出</a></p><a class="btn-weibo-login" href="javascript:void(0);">我要发言</a></div>
+							</div>
+						</div>
+						<!--box-tab-content-->
+					</div>
+				</div>
+			</div>
+			<!--微博列表和期货吧-->
+			</div>
+		<!--right-->
+	</div>
+	<!--middle end-->
+	<!--footer begin-->
+	<div id="footer">
+		<div class="footer-inner">
+			<p><a target="_blank" href="/guest.html">新浪财经意见反馈留言板</a>&#12288;电话：010-82628888-5174&#12288;欢迎批评指正</p>
+			<p><a target="_blank" href="http://tech.sina.com.cn/focus/sinahelp.shtml">常见问题解答</a> <a target="_blank" href="http://net.china.cn/chinese/index.htm">互联网违法和不良信息举报</a>&#12288;客户服务热线：4006900000&#12288;010-82624499</p>
+			<p><a href="http://corp.sina.com.cn/chn/">新浪简介</a> | <a href="http://corp.sina.com.cn/eng/">About Sina</a> | <a href="http://emarketing.sina.com.cn/">广告服务</a> | <a href="http://www.sina.com.cn/contactus.html">联系我们</a> | <a href="http://corp.sina.com.cn/chn/sina_job.html">招聘信息</a> | <a href="http://www.sina.com.cn/intro/lawfirm.shtml">网站律师</a> | <a href="http://english.sina.com">SINA English</a> | <a href="http://members.sina.com.cn/apply/">会员注册</a> | <a href="http://tech.sina.com.cn/focus/sinahelp.shtml">产品答疑</a></p>
+			<p>Copyright &copy; 1996-2012 SINA Corporation, All Rights Reserved</p>
+			<p>新浪公司&#12288;<a target="_blank" href="http://home.sina.com.cn/intro/copyright.shtml">版权所有</a></p>
+		</div>
+	</div>
+	<!--footer end-->
+</div>
+<!--登录面板-->
+<div id="box-login-pannel" style="display:none;">
+	<div class="box-login-header">
+		<a class="dialog-close" href="javascript:void(0);" title="关闭"><strong>?X?</strong></a>
+		<h3>登陆</h3>
+	</div>
+	<div class="box-login-content">
+		<div class="error"></div>
+		<form action="javascript:void(0)">
+			<table cellpadding="0" class="table" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<th>用户名：
+						<td><input type="text" class="text username" name="username" />
+					</tr>
+					<tr>
+						<th>密&nbsp;&nbsp;码：
+						<td><input type="password" class="text password" name="password" />
+							<p class="savestate-wrap"><label for="savestate"><input type="checkbox" class="check savestate" name="savestate" id="savestate"/>记录登陆状态一个月</label>
+							<p><a href="javascript:void(0);" class="btn btn-login"><span>登录</span></a>
+							<p><a class="btn-find-pwd" target="_blank" href="http://login.sina.com.cn/getpass.html">找回密码</a> <a traget="_blank" href="http://login.sina.com.cn/help.html">登陆帮助</a>
+							<div class="hr">
+								<hr />
+							</div>
+							<p>还不是新浪会员
+							<p><a href="https://login.sina.com.cn/signup/signup.php" target="_blank" class="btn btn-reg"><span>注册</span></a>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+<!--登录面板-->
+<!--发布微博面板-->
+<div id="box-weibo-publish-wrap" class="dialog-bubble" style="display:none;">
+	<div class="dialog-bubble-header">
+		<div class="dialog-bubble-header-inner">
+			<p class="float-right char-tip">
+			<p class="weibo-basic-info">您好！<span class="user-name">clearright</span>
+		</div>
+	</div>
+	<div class="dialog-bubble-content weibo-content">
+		<textarea col="20" rows="30" data-name="#COMEX白银#" class="weibo-content-textarea">#COMEX白银#</textarea>
+		<p class="text-right"><a class="btn btn-publish" href="javascript:vodi(0);"><span>发布</span></a>
+	</div>
+	<div class="dialog-bubble-content text-center weibo-success" style="display:none;">
+		<p class="success">发布成功
+		<p class="weibo-link">到<a class="to-weibo" href="" target="_blank">微博</a>查看您的发言
+	</div>
+</div>
+<!--发布微博面板-->
+
+<!--二维码 开始-->
+<style type="text/css">
+    .qrcode_blk{position:fixed; left:50%; margin-left:510px; top:160px; width:120px; padding:10px; border:1px solid #d3d6de;}
+    .qrcode_blk img{display:block; width:120px; height:120px;}
+    .qrcode_txt{margin-top:5px; text-align:center; line-height:20px; font-family:"microsoft yahei"; font-size:12px; color:#000000;}
+    .qrcode_txt span{font-size14px; font-weight:bold;}
+</style>
+<div class="qrcode_blk">
+    <img src="http://finance.sina.com.cn/future/qrcode/global_SI.png" data-pin-nopin="true">
+    <div class="qrcode_txt">
+        扫二维码
+        <br>
+        <span>用手机查看行情</span>
+    </div>
+</div>
+<!--二维码 结束-->
+
+<script type="text/javascript" src="http://finance.sina.com.cn/futures/quotes/iframe/js/global_futures_symbol_js.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src='http://stock2.finance.sina.com.cn/futurespage2012/js/jquery-ui/jquery-ui-1.8.16.custom.min.js'></script>
+<script type="text/javascript" src="http://www.sinaimg.cn/cj/ddp/js/swfobject2.2.js"></script>
+		<script type="text/javascript" src="http://finance.sina.com.cn/js/286/20120924/92.js"></script>
+		<script type="text/javascript" src="http://finance.sina.com.cn/js/286/20130109/102.js"></script>
+<script type="text/javascript" src="http://i3.sinaimg.cn/dy/fusioncharts/v3_2_2/FusionCharts.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/jquery.plugin.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/widget/dialog/dialog.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/tabswitch.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/stockhq.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/config.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/login-manger.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/weibo-app.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/view.js"></script>
+			<script src='http://finance.sina.com.cn/sinafinancesdk/js/sf_sdk.js'></script>
+		<script src='http://finance.sina.com.cn/futrues/hf/stock20161021.js'></script>
+	<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/control.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/slide.js"></script>
+<script type="text/javascript" src="http://stock2.finance.sina.com.cn/futurespage2012/js/lcs_control.js"></script>
+<script>
+control.init();
+</script>
+<script>
+	(function() {
+		var sc = document.createElement("script");
+		sc.src = "http://licaishi.sina.com.cn/web/financeInclude?name=lcs_trade_time";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(sc, s);
+	})();
+</script>
+
+
+<!-- body code begin -->
+<script type="text/javascript">
+(function(){
+    if(window.top !== window.self || window._thereIsNoRealTimeMessage){return};
+    var script = document.createElement('script');
+    script.setAttribute('charset', 'UTF-8');
+    script.src = 'http://news.sina.com.cn/js/694/2012/0830/realtime.js?ver=1.5.1';
+    document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+
+<!-- SSO_UPDATECOOKIE_START -->
+<script type="text/javascript">var sinaSSOManager=sinaSSOManager||{};sinaSSOManager.q=function(b){if(typeof b!="object"){return""}var a=new Array();for(key in b){a.push(key+"="+encodeURIComponent(b[key]))}return a.join("&")};sinaSSOManager.es=function(f,d,e){var c=document.getElementsByTagName("head")[0];var a=document.getElementById(f);if(a){c.removeChild(a)}var b=document.createElement("script");if(e){b.charset=e}else{b.charset="UTF-8"}b.id=f;b.type="text/javascript";d+=(/\?/.test(d)?"&":"?")+"_="+(new Date()).getTime();b.src=d;c.appendChild(b)};sinaSSOManager.doCrossDomainCallBack=function(a){sinaSSOManager.crossDomainCounter++;document.getElementsByTagName("head")[0].removeChild(document.getElementById(a.scriptId))};sinaSSOManager.crossDomainCallBack=function(a){if(!a||a.retcode!=0){return false}var d=a.arrURL;var b,f;var e={callback:"sinaSSOManager.doCrossDomainCallBack"};sinaSSOManager.crossDomainCounter=0;if(d.length==0){return true}for(var c=0;c<d.length;c++){b=d[c];f="ssoscript"+c;e.scriptId=f;b=b+(/\?/.test(b)?"&":"?")+sinaSSOManager.q(e);sinaSSOManager.es(f,b)}};sinaSSOManager.updateCookieCallBack=function(c){var d="ssoCrossDomainScriptId";var a="http://login.sina.com.cn/sso/crossdomain.php";if(c.retcode==0){var e={scriptId:d,callback:"sinaSSOManager.crossDomainCallBack",action:"login",domain:"sina.com.cn"};var b=a+"?"+sinaSSOManager.q(e);sinaSSOManager.es(d,b)}else{}};sinaSSOManager.updateCookie=function(){var g=1800;var p=7200;var b="ssoLoginScript";var h=3600*24;var i="sina.com.cn";var m=1800;var l="http://login.sina.com.cn/sso/updatetgt.php";var n=null;var f=function(e){var r=null;var q=null;switch(e){case"sina.com.cn":q=sinaSSOManager.getSinaCookie();if(q){r=q.et}break;case"sina.cn":q=sinaSSOManager.getSinaCookie();if(q){r=q.et}break;case"51uc.com":q=sinaSSOManager.getSinaCookie();if(q){r=q.et}break}return r};var j=function(){try{return f(i)}catch(e){return null}};try{if(g>5){if(n!=null){clearTimeout(n)}n=setTimeout("sinaSSOManager.updateCookie()",g*1000)}var d=j();var c=(new Date()).getTime()/1000;var o={};if(d==null){o={retcode:6102}}else{if(d<c){o={retcode:6203}}else{if(d-h+m>c){o={retcode:6110}}else{if(d-c>p){o={retcode:6111}}}}}if(o.retcode!==undefined){return false}var a=l+"?callback=sinaSSOManager.updateCookieCallBack";sinaSSOManager.es(b,a)}catch(k){}return true};sinaSSOManager.updateCookie();</script>
+<!-- SSO_UPDATECOOKIE_END -->
+
+<!-- Start  Wrating  -->
+<script language="javascript">
+var wrUrl="//sina.wrating.com/";var wrDomain="sina.com.cn";var wratingDefaultAcc="860010-0323010000";var wratingAccArray={"history.sina.com.cn":"860010-0334010000","health.sina.com.cn":"860010-0330010000","fashion.sina.com.cn":"860010-0311010000","collection.sina.com.cn":"860010-0331010000","2014.sina.com.cn":"860010-0308160000","2012.sina.com.cn":"860010-0308150000","torch.2008.sina.com.cn":"860010-0308070000","video.sina.com.cn":"860010-0309010000","ent.sina.com.cn":"860010-0312010000","tech.sina.com.cn":"860010-0313010000","mobile.sina.com.cn":"860010-0313020000","house.sina.com.cn":"860010-0315010000","bj.house.sina.com.cn":"860010-0315020000","auto.sina.com.cn":"860010-0316010000","eladies.sina.com.cn":"860010-0317010000","woman.sina.com.cn":"860010-0317010000","games.sina.com.cn":"860010-0318010000","edu.sina.com.cn":"860010-0307010000","baby.sina.com.cn":"860010-0320010000","astro.sina.com.cn":"860010-0321020000","news.sina.com.cn":"860010-0310010000","weather.news.sina.com.cn":"860010-0310020000","mil.news.sina.com.cn":"860010-0310030000","www.sina.com.cn":"860010-0322010000","home.sina.com.cn":"860010-0322010000","sports.sina.com.cn":"860010-0308010000","shidefc.sina.com.cn":"860010-0308020000","weiqi.sina.com.cn":"860010-0308030000","f1.sina.com.cn":"860010-0308040000","golf.sina.com.cn":"860010-0308050000","2002.sina.com.cn":"860010-0308060000","2004.sina.com.cn":"860010-0308060000","2006.sina.com.cn":"860010-0308060000","2008.sina.com.cn":"860010-0308070000","yayun2002.sina.com.cn":"860010-0308060000","yayun2006.sina.com.cn":"860010-0308060000","book.sina.com.cn":"860010-0319010000","cul.book.sina.com.cn":"860010-0319020000","comic.book.sina.com.cn":"860010-0319030000","finance.sina.com.cn":"860010-0314010000","money.sina.com.cn":"860010-0314020000","yue.sina.com.cn":"860010-0324010000","www.sina.com":"860010-0322010000"};function vjTrack(){var U=1800;var T=false;var S=false;var R="";var Q="0";var P="";var N;var L;var K;var J;var I;var H="expires=Fri, 1 Jan 2038 00:00:00 GMT;";var G=0;if(document.location.protocol=="file:"){return }T=navigator.cookieEnabled?"1":"0";S=navigator.javaEnabled()?"1":"0";var F="0";var E;var C=-1;var D=document.cookie;if(T=="1"){C=D.indexOf("vjuids=");if(C<0){E=vjVisitorID();document.cookie="vjuids="+escape(E)+";"+H+";domain="+wrDomain+";path=/;";if(document.cookie.indexOf("vjuids=")<0){T="0"}else{Q="1"}}else{E=vjGetCookie("vjuids")}}L=document.referrer;if(!L||L==""){L=""}R=vjFlash();if(self.screen){N=screen.width+"x"+screen.height+"x"+screen.colorDepth}else{if(self.java){var M=java.awt.Toolkit.getDefaultToolkit();var O=M.getScreenSize();N=O.width+"x"+O.height+"x0"}}if(navigator.language){K=navigator.language.toLowerCase()}else{if(navigator.browserLanguage){K=navigator.browserLanguage.toLowerCase()}else{K="-"}}I="";var B;var X;X=new Date();J=X.getTimezoneOffset()/-60;J=X.getTimezoneOffset()/-60;B="&s="+N+"&l="+K+"&z="+J+"&j="+S+"&f="+R;if(T=="1"){C=document.cookie.indexOf("vjlast=");if(C<0){G=0}else{G=parseInt(vjGetCookie("vjlast"))}}if((X.getTime()/1000)-G>U){F="1";document.cookie="vjlast="+Math.round(X.getTime()/1000)+";"+H+";domain="+wrDomain+";path=/;"}if(L!=""){B=B+"&r="+escape(L)}if(F!="0"){B=B+"&n="+G}if(Q!="0"){B=B+"&u="+Q}var V;var A=vjGetAcc();var W=vjGetDomain();V=wrUrl+"a.gif?a="+X.getTime().toString(16)+"&t="+escape(I)+"&i="+escape(E)+"&b="+escape(document.location)+"&c="+A+B+"&ck="+W;document.write('<img src="'+V+'" width="1" height="1" style="visibility:hidden;position:absolute;left:0px;top:0px;z-index:-1" />')}function vjGetAcc(){var B=document.location.toString().toLowerCase();var C=(B.split("/"))[2];var A=wratingAccArray[C];if(typeof (A)=="undefined"){A=wratingDefaultAcc}return A}function vjFlash(){var _wr_f="-",_wr_n=navigator;if(_wr_n.plugins&&_wr_n.plugins.length){for(var ii=0;ii<_wr_n.plugins.length;ii++){if(_wr_n.plugins[ii].name.indexOf("Shockwave Flash")!=-1){_wr_f=_wr_n.plugins[ii].description.split("Shockwave Flash ")[1];break}}}else{if(window.ActiveXObject){for(var ii=10;ii>=2;ii--){try{var fl=eval("new ActiveXObject('ShockwaveFlash.ShockwaveFlash."+ii+"');");if(fl){_wr_f=ii+".0";break}}catch(e){}}}}return _wr_f}function vjHash(B){if(!B||B==""){return 0}var D=0;for(var C=B.length-1;C>=0;C--){var A=parseInt(B.charCodeAt(C));D=(D<<5)+D+A}return D}function vjVisitorID(){var B=vjHash(document.location+document.cookie+document.referrer).toString(16);var A;A=new Date();return B+"."+A.getTime().toString(16)+"."+Math.random().toString(16)}function vjGetCookieVal(B){var A=document.cookie.indexOf(";",B);if(A==-1){A=document.cookie.length}return unescape(document.cookie.substring(B,A))}function vjGetCookie(C){var B=C+"=";var F=B.length;var A=document.cookie.length;var E=0;while(E<A){var D=E+F;if(document.cookie.substring(E,D)==B){return vjGetCookieVal(D)}E=document.cookie.indexOf(" ",E)+1;if(E==0){break}}return null}function vjGetDomain(){var A=0;try{if(window.self.parent!=self){var D=/sina.com/i;var C=document.location.toString().toLowerCase();var B=parent.location.toString().toLowerCase();if(D.test(C)&&D.test(B)){A=1}}}catch(e){A=1}return A}vjTrack();
+</script>
+<!-- End Wrating-->
+
+<!-- start dmp -->
+<script type="text/javascript">
+(function(d, s, id) {
+var n = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+s = d.createElement(s);
+s.id = id;
+s.setAttribute('charset', 'utf-8');
+s.src = '//d' + Math.floor(0 + Math.random() * (8 - 0 + 1)) + '.sina.com.cn/litong/zhitou/sinaads/src/spec/sinaads_ck.js';
+n.parentNode.insertBefore(s, n);
+})(document, 'script', 'sinaads-ck-script');
+</script>
+<!-- end dmp -->
+
+<!-- body code end -->
+</body>
+</html>
+
+
+
+<!-- ZM1UheKZljnaXRzExobrInB1yJQeOAfKdOqMp2dDexQ/BTa6kMHLRRR0mD448VE+FXwA7zqHSSGFLiBDlq9Y50wl4JnEn3S4kOFaz/eiaVBKiujgksI31T3uMPQtYmdiL5q3sFxuEqtJ+b9KyHtvn1NHvzEhSAfSb8d4HBmJnBRWVhR28vyQTOoDDIw/jDysjTV2S9stOe3PC7NU74jmDrQnIkdvoVJ56Zpy1C3xV2AOhPp1vZHbw1IP9wI= -->
